@@ -1,0 +1,168 @@
+#note {
+    width: 100%;
+    height: 280px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.diycontent {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    .questionbox {
+        width: 90%;
+        min-height: 60vh;
+        background: #fff;
+        margin: 20px auto;
+        padding-bottom: 40px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 3px 3px 3px rgba(153, 153, 153, .2);
+        display: flex;
+        flex-direction: column;
+        .boxcontent {
+            justify-content: space-between;
+            padding: 10px;
+            font-size: .2rem;
+            color: #888;
+            display: flex;
+            align-items: center;
+        }
+        .boxheaer {
+            width: 100%;
+            height: 50px;
+            background: url("../diyBox/questionbg.png") no-repeat;
+            background-size: 100% 100%;
+            p {
+                color: #fff;
+                padding-left: .5rem;
+                font-size: .35rem;
+                line-height: 50px;
+            }
+        }
+    }
+}
+
+.questionbg {
+    width: 100%;
+    height: 100%;
+}
+
+.openbox {
+    width: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.selectradio {
+    width: 50%;
+    height: 50px;
+    line-height: 55px;
+    position: relative;
+}
+
+.selectradio label {
+    margin-left: 40%;
+    color: #737373;
+    font-size: .35rem;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    left: 0px;
+    z-index: 3;
+    opacity: 0;
+}
+
+.selectradioContent {
+    height: 50px;
+    line-height: 55px;
+    position: relative;
+}
+
+.selectradioContent label {
+    margin-left: 11%;
+    color: #737373;
+    font-size: .35rem;
+}
+
+.user-defined {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    left: 0px;
+    z-index: 2;
+    border: 1px solid #737373;
+    border-radius: 50%;
+}
+
+.user-defined span.circle {
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin-top: 1px;
+    margin-left: 1px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.user-defined span.active {
+    background-color: #214d50;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    width: 30%;
+    height: 60%;
+    color: #fff;
+    background: url("../sigleProduct/img/anniu.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addBox {
+    padding: 0 10px;
+}
+
+.cloths {
+    padding: 10px;
+}
+
+.one-cloth {
+    width: 33.33%;
+    float: left;
+    padding: 5px;
+    max-height: 20vh;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.one-cloth img {
+    width: 100%;
+}
+
+.one-cloth .delete {
+    width: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

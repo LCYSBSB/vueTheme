@@ -1,0 +1,224 @@
+#wx_login {
+	width: .8rem;
+	margin-left: 50%;
+	margin-top:10px;
+	transform: translateX(-50%);
+}
+
+.top_distance {
+	width: 100%;
+	height: 2.66rem;
+	padding-top: 1rem;
+}
+
+
+/*操作区域*/
+
+.active_area {
+	width: 5.65rem;
+	font-size: 0.26rem;
+	color: #1e5154;
+	margin: 0 auto;
+	display: block;
+}
+
+.active_area span {
+	display: inline-block;
+	width: 2.825rem;
+	float: left;
+}
+
+.active_register {
+	text-align: right;
+}
+
+.register_photo {
+	width: 2.26rem;
+	height: 2.26rem;
+	border-radius: 50%;
+	border: 0.11rem solid rgba(255, 255, 255, 0.4);
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.register_photo div {
+	width: 1.6rem;
+	height: 1.6rem;
+	margin: 0.33rem;
+}
+
+.register_photo img {
+	width: 100%;
+	height: 100%;
+}
+
+
+/*登陆框*/
+
+.borderline {
+	border-bottom: 1px solid #999;
+}
+
+.loginborder {
+	width: 5.65rem;
+	display: flex;
+	justify-content: center;
+	align-items: Center;
+	border: 1px solid #999;
+	border-radius: 5px;
+	margin: 1.2rem auto 0;
+}
+
+.login_box {
+	width: 5rem;
+	position: relative;
+}
+
+.login_box ul {
+	width: 5rem;
+	height: 1.24rem;
+}
+
+.login_box li {
+	float: left;
+	height: 1.24rem;
+}
+
+.login_box li:first-child {
+	width: 1.13rem;
+	text-align: center;
+}
+
+.login_box li input {
+	color: #999;
+	border: none;
+	display: inherit;
+	font-size: 0.3rem;
+	width: 2.8rem;
+	text-align: center;
+	margin-top: 0.3rem;
+	height: 1rem;
+	line-height: 1rem;
+}
+
+.login_box li .account_number,
+.login_box li .password {
+	width: 0.4rem;
+	margin-top: .5rem;
+	vertical-align: middle;
+}
+
+.login_box li .password {
+	width: 0.33rem;
+}
+
+.login_box li #account,
+.login_box li #psd {
+	background: transparent;
+	display: inherit;
+	font-size: 0.34rem;
+	width: 2.8rem;
+	text-align: left;
+	margin-top: 0.3rem;
+	height: 1rem;
+	line-height: 1rem;
+}
+
+
+/*登陆按钮*/
+
+#login_btn {
+	width: 5.65rem;
+	height: 1rem;
+	line-height: 1rem;
+	color: #fff;
+	text-align: center;
+	background: #214d50;
+	border-radius: 5px;
+	margin: 0.78rem auto 0.44rem;
+	display: block;
+	font-size: 0.34rem;
+}
+
+
+/*
+ * 忘记密码
+ */
+
+.psdBox {
+	width: 5.65rem;
+	height: 4.56rem;
+	position: relative;
+	padding: 20px;
+    margin: 0 auto;
+}
+
+.psdBox input {
+	color: #999;
+    display: inherit;
+    font-size: 0.4rem;
+    width: 2.8rem;
+    text-align: left;
+    margin-top: 0.3rem;
+    height: 1rem;
+    line-height: 1rem;
+    background: transparent;
+}
+
+.getCode {
+    bottom: 0;
+    align-items: center;
+    font-size: 0.25rem;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 1.6rem;
+    height: .7rem;
+    position: absolute;
+    border: 1px solid rgba(30, 81, 84, .5);
+    right: 0;
+}
+.getCode  span{
+	   font-size: 0.25rem;
+}
+.sureLogin {
+    width: 5.65rem;
+    height: 1rem;
+    border-radius: 5px;
+    line-height: 1rem;
+    color: #fff;
+    text-align: center;
+    background: #214d50;
+    margin: 0.78rem auto 0.44rem;
+    display: block;
+    font-size: 0.34rem;
+}
+.psdBox .icon img{
+	width: 0.4rem;
+    margin-top: .5rem;
+    vertical-align: middle;
+ }
+ .psdBox li:first-child {
+    width: .65rem;
+    text-align: left;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+  	font-size:.27rem
+}
+.psdBox li {
+    float: left;
+    height: 1.24rem;
+}
+.psdBox ul {
+    width: 5.65rem;
+    position: relative;
+    height: 1.24rem;
+}
+.backLogon {
+    width: 5.65rem;
+    margin: 0 auto;
+    color: #1e5154;
+    font-size: 0.3rem;
+    text-decoration: underline;
+}

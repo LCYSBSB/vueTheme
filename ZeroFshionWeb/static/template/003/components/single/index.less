@@ -1,0 +1,229 @@
+.swiper-container{
+        margin-top: .25rem;
+    }
+    .selectbox {
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        background: #FFFFFF;
+        height: 40px;
+        width: 100%;
+        z-index: 99;
+    }
+    .mask {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 98;
+        background: rgba(0, 0, 0, .5);
+    }
+    
+    .selectbox ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .selectbox ul li {
+        color: #444;
+        float: left;
+        margin-left: 30px;
+    }
+    
+    .icon_xiala {
+        margin-left: 4px;
+        margin-bottom: 3px;
+        width: 8px;
+    }
+    
+    .selectColorBox,
+    .selectSceneBox,
+    .selectStyleBox {
+        border-top: 1px solid #bebebe;
+        transition: all 1s;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        min-height: 80px;
+        background: #FFFFFF;
+        z-index: 99;
+    }
+    
+    .selectColorBox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .selectColorBox div img {
+        width: 40px;
+    }
+    
+    .selectColorBox div p {
+        font-size: 10px;
+    }
+    
+    .selectColorBox div {
+        text-align: center;
+        margin: 12px;
+    }
+    
+    .selctactive {
+        color: #9f825a !important;
+    }
+    
+    .selectStyleBox>div,
+    .selectSceneBox>div {
+        width: 86%;
+        margin: 0 auto;
+        border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+        padding: 10px 0;
+        text-align: left;
+        font-size: 15px;
+        letter-spacing: 1px;
+        color: #214d50;
+    }
+    
+    .selectStyleBox>div:last-child,
+    .selectSceneBox>div:last-child {
+        border: none;
+    }
+    
+    .activeColor {
+        border: 2px solid #214d50;
+        border-radius: 50%;
+    }
+    
+    .activeStyleAndSence {
+        color:#9f825a !important;
+        background: url("../sigleProduct/img/duigou.png");
+        background-repeat: no-repeat;
+        background-position: 100% 10px;
+        background-size: 30px 20px;
+    }
+    /*
+     * footer swiper
+     */
+    
+    .footer_navigation {
+        color: #fff;
+        width: 100%;
+        height: 11vh;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 97;
+        background: url('../sigleProduct/img/di.png') no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .slideitem {
+        text-align: center;
+    }
+    
+    .slideitem p {
+        font-size: 10px;
+    }
+    
+    .slideitem img {
+        width: .6rem;
+    }
+    
+    .slideitemBox {
+        /*margin-top: .22rem;*/
+        align-items: center;
+    }
+    
+    .slideitemBox>.swiper-slide-active img {
+        width: .8rem;
+    }
+    
+    .productContainer {
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    .appendBox {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .white_bgg:after {
+        clear: both;
+    }
+    
+    .white_bgg.selected {
+        background-color: green;
+    }
+    
+    .white_bgg {
+        width: 47%;
+        margin-top: 10px;
+        background-color: rgba(255, 255, 255, 0.26);
+    }
+    
+    .commodity {
+        width: 100%;
+    }
+    
+    .picture {
+        width: 100%;
+        display: block;
+        min-height: 260px;
+    }
+    /*信息模块*/
+    
+    .message_box {
+        width: 100%;
+        /*margin: 0 auto 3%;*/
+        background-color: rgba(255, 255, 255, 0.26);
+    }
+    
+    .message {
+        width: 100%;
+    }
+    
+    .message>div {
+        height: 0.6rem;
+        line-height: 0.8rem;
+        overflow: hidden;
+    }
+    
+    .message p {
+        padding: 10px 0 0 3px;
+        color: #000;
+        margin-left: 5%;
+    }
+    
+    .mold {
+        width: 100%;
+        overflow: hidden;
+        padding: 10px 0;
+    }
+    
+    .mold li:first-child {
+        margin-top: 4px;
+        color: #750000;
+        margin-left: 5%;
+    }
+    
+    .mold li:last-child {
+        float: right;
+        color: #fff;
+        font-size: .2rem;
+        padding: .1rem .2rem;
+        background: #9f9f9f;
+    }
+    
+    .mold li {
+        float: left;
+        font-size: 0.35rem;
+        color: rgba(0, 0, 0, 0.5);
+    }
